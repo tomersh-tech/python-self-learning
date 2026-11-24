@@ -1,0 +1,8 @@
+[BASIC]
+# Allow exercise file names like 5.1.no_vinnigrete.py, as the task requires.
+module-rgx=^(\d+\.\d+\.)?[a-z_][a-z0-9_]*$
+
+[TYPECHECK]
+# The CI workflow only installs pylint, not requirements.txt, so these
+# third-party packages are missing there. They are listed in requirements.txt.
+ignored-modules=PIL,decorator
