@@ -1,0 +1,2 @@
+Pillow==13.0.0
+decorator==5.3.2
